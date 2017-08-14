@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="mystyle.css">
+<html>
+
+<head>
+  <meta charset="utf-8">
+</head>
+
+<title>San Diego Top Spots</title>
+
+<body>
+  <h1>San Diego Top Spots<h1>
+      <!-- Write your markup here -->
+      <div id="map_wrapper">
+        <div id="map_canvas" class="mapping"></div>
+      </div>
+
+      <table id='table-id'>
+        <tr>
+          <th id='name'>Name</th>
+          <th id='description'>Description</th>
+          <th id='link'>Link</th>
+        </tr>
+      </table>
+
+      <!-- Don't forget to add your <script> tag here -->
+              
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="main.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6bX5ZfmpIyvXLCWYbfRbXSujXVmFidHg&callback=initMap"
+    async defer></script>
+</body>
+
+</html>
